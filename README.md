@@ -61,11 +61,11 @@
 
 ###
 
-<h2 align="left">📫 Onde me encontrar</h2>
+<h2 align="left">📫 Connect with Me</h2>
 
 ###
 
-<p align="left">📧 Email: seu@email.com</p>
+<p align="left">📧 Email: matheus.berwolf@gmail.com</p>
 
 ###
 
