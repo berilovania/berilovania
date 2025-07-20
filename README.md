@@ -67,6 +67,7 @@
 
 ###
 
-<p align="left">📧 Email: seu@email.com</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/matheus-santos-c/)  
+📧 Email: matheus.berwolf@gmail.com
 
 ###
