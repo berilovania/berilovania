@@ -12,6 +12,10 @@
 
 ###
 
+<h2 align="left">🚀 Skills & Tools</h2>
+
+###
+
 <div align="left">
   <img src="https://img.shields.io/badge/Amazon AWS-232F3E?logo=amazonwebservices&logoColor=FF9900&style=for-the-badge" height="40" alt="amazonwebservices logo"  />
   <img width="12" />
