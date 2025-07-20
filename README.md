@@ -74,10 +74,3 @@
 📧 Email: matheus.berwolf@gmail.com
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/matheus-santos-c/)  [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github&logoColor=white)](https://github.com/berilovania)
-
-###
-
-<img src="https://raw.githubusercontent.com/berilovania/berilovania/output/snake.svg" alt="Snake animation" />
-
-
-###
