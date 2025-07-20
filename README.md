@@ -10,6 +10,19 @@
 - 🌍 Based in Brazil
 - 💼 Open to DevOps/Cloud opportunities and collaborations
 
+###
+
+<h2 align="left">📈 GitHub Stats</h2>
+
+###
+
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=berilovania&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=merko&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=berilovania&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=merko&hide_border=false&order=2" height="150" alt="languages graph"  />
+</div>
+
+###
+
 <h2 align="left">🚀 Skills & Tools</h2>
 
 ###
@@ -50,31 +63,10 @@
 
 ###
 
-<h2 align="left">📈 GitHub Stats</h2>
-
-###
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=berilovania&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=merko&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=berilovania&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=merko&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
-
-###
-
 <h2 align="left">📫 Connect with Me</h2>
 
 ###
 
-<p align="left">📧 Email: matheus.berwolf@gmail.com</p>
-
-###
-
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="linkedin logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=instagram" height="40" alt="instagram logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=discord" height="40" alt="discord logo"  />
-</div>
+<p align="left">📧 Email: seu@email.com</p>
 
 ###
