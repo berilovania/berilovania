@@ -1,11 +1,14 @@
 <h1 align="left">👋 Hi there, I'm Matheus Santos!</h1>
 
-###
+### 🧑‍💻 About Me
 
-<p align="left">
-### 🧑‍💻 About Me<br><br>- ✅ **AWS Cloud Practitioner Certified (CLF-C02)**<br>- ⚙️ Focused on:<br>  - **Infrastructure as Code** with Terraform<br>  - **Container Orchestration** using Kubernetes<br>  - Linux systems and automation with Python and Bash<br>- 🌍 Based in Brazil<br>- 💼 Open to DevOps/Cloud opportunities and collaborations</p>
-
-###
+- ✅ **AWS Cloud Practitioner Certified (CLF-C02)**
+- ⚙️ Focused on:
+  - **Infrastructure as Code** with Terraform
+  - **Container Orchestration** using Kubernetes
+  - Linux systems and automation with Python and Bash
+- 🌍 Based in Brazil
+- 💼 Open to DevOps/Cloud opportunities and collaborations
 
 <h2 align="left">🚀 Skills & Tools</h2>
 
