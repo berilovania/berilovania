@@ -11,7 +11,6 @@
 - 💼 Open to DevOps/Cloud opportunities and collaborations
 
 <br>
-###
 
 <h2 align="left">🚀 Skills & Tools</h2>
 
