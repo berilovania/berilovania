@@ -12,7 +12,7 @@
 
 ***
 
-<h3 align="left">🚀 Skills & Tools</h3>
+<h2 align="left">🚀 Skills & Tools</h2>
 
 ###
 
@@ -52,7 +52,6 @@
 
 ###
 
----
 
 <h2 align="left">📈 GitHub Stats</h2>
 
