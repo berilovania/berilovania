@@ -26,7 +26,7 @@
 
 ###
 
-<div align="left">
+<div align="center">
   <img src="https://skillicons.dev/icons?i=aws" height="40" alt="amazonwebservices logo"  />
   <img width="12" />
   <img src="https://cdn.simpleicons.org/terraform/7B42BC" height="40" alt="terraform logo"  />
