@@ -2,7 +2,6 @@
 
 ### 🧑‍💻 About Me
 
-- ✅ **AWS Cloud Practitioner Certified (CLF-C02)**
 - ⚙️ Focused on:
   - **Infrastructure as Code** with Terraform
   - **Container Orchestration** using Kubernetes
