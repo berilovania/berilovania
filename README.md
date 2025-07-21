@@ -12,7 +12,7 @@
 
 ***
 
-<h2 align="left">🚀 Skills & Tools</h2>
+<h3 align="left">🚀 Skills & Tools</h3>
 
 ###
 
