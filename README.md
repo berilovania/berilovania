@@ -10,7 +10,7 @@
 - 🌍 Based in Brazil
 - 💼 Open to DevOps/Cloud opportunities and collaborations
 
----
+***
 
 <h2 align="left">🚀 Skills & Tools</h2>
 
@@ -65,7 +65,7 @@
 
 ###
 
----
+___
 
 <h2 align="left">📫 Connect with Me</h2>
 
