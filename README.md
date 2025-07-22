@@ -69,7 +69,7 @@
 
 <div align="center">
 
-📧 **Email: <a href="mailto:matheus.berwolf@gmail.com">matheus.berwolf@gmail.com</a>**
+📧 **Email: <a href="mailto:matheus.santos.devops@gmail.com">matheus.santos.devops@gmail.com</a>**
 
 <br>
 
