@@ -60,8 +60,6 @@
 ###
 <div align="center">
   
-  ![berilovania's Stats](https://github-readme-stats.vercel.app/api?username=berilovania&theme=react&show_icons=true&hide_border=true&count_private=true)
-  ![berilovania's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=berilovania&theme=react&show_icons=true&hide_border=true&layout=compact)
 </div>
 
 
