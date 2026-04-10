@@ -1,89 +1,106 @@
-<h1 align="center">
-  
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bitcount&size=35&pause=1000&width=700&lines=%F0%9F%91%8B+Hi+there%2C+I'm+Matheus+Santos!+)](https://git.io/typing-svg)
-</h1>
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&duration=2500&pause=1200&color=6C63FF&center=true&vCenter=true&repeat=true&width=850&lines=Hey+%F0%9F%91%8B+I'm+Matheus+Santos;DevOps+Engineer+%7C+Cloud+%26+Infrastructure)](https://git.io/typing-svg)
+
+<p>
+  <a href="https://www.linkedin.com/in/matheus-santos-c/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:matheus.santos.devops@gmail.com"><img src="https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/berilovania"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%">
+
+<table>
+<tr>
+<td valign="top" width="50%">
 
 ### 🧑‍💻 About Me
 
-- ⚙️ Focused on:
-  - **Infrastructure as Code** with Terraform
-  - **Container Orchestration** using Kubernetes
-  - Linux systems and automation with Python and Bash
-- 🌍 Based in Brazil
-- 💼 Open to DevOps/Cloud opportunities and collaborations
+I'm a **DevOps Engineer** from Brazil passionate about building reliable, scalable infrastructure and automating everything that can be automated.
 
-***
+- **Infrastructure as Code** — Terraform
+- **Container Orchestration** — Kubernetes & Docker
+- **Automation** — Python, Bash & CI/CD
+- **Linux Systems** — Admin & Troubleshooting
+- Open to **DevOps / Cloud / SRE** roles
 
-<h2 align="left">🚀 Skills & Tools</h2>
+</td>
+<td valign="top" width="50%">
 
-###
+<img src="./assets/terminal.svg" width="100%" alt="terminal animation" />
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%">
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+### 🚀 Tech Stack
+
+**Cloud & Orchestration**
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,gcp,terraform,kubernetes,docker" />
+</p>
+
+**Monitoring & Observability**
+<p>
+  <img src="https://cdn.simpleicons.org/prometheus/E6522C" height="40" alt="prometheus" />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/grafana/F27173" height="40" alt="grafana" />
+</p>
+
+**Development & Scripting**
+<p>
+  <img src="https://skillicons.dev/icons?i=py,bash,js,html,css" />
+</p>
+
+**Tools & Version Control**
+<p>
+  <img src="https://skillicons.dev/icons?i=linux,git,github,githubactions,vscode" />
+</p>
+
+</td>
+<td valign="middle" width="50%">
+
+<img src="./assets/971.jpg" width="100%" alt="workspace" />
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%">
+
+### <div align="center">📈 GitHub Analytics</div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Amazon AWS-232F3E?logo=amazonwebservices&logoColor=FF9900&style=for-the-badge" height="40" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=for-the-badge" height="40" alt="terraform logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=for-the-badge" height="40" alt="kubernetes logo"  />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=berilovania&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=berilovania&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9" />
 </div>
-
-###
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=aws" height="40" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/terraform/7B42BC" height="40" alt="terraform logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=kubernetes" height="40" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=vue" height="40" alt="vuejs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=linux" height="40" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=git" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="docker logo"  />
-</div>
-
-###
-
-
-<h2 align="left">📈 GitHub Stats</h2>
-
-###
-<div align="center">
-  
-</div>
-
-
-<h2 align="left">📫 Connect with Me</h2>
-
-###
-
-<div align="center">
-
-📧 **Email: <a href="mailto:matheus.santos.devops@gmail.com">matheus.santos.devops@gmail.com</a>**
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/matheus-santos-c/)
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github&logoColor=white)](https://github.com/berilovania)
-
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=berilovania&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" />
 </div>
 
----
+<img src="./assets/divider.svg" width="100%">
 
-###
+### <div align="center">🐍 Contribution Graph</div>
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berilovania/berilovania/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berilovania/berilovania/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/berilovania/berilovania/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berilovania/berilovania/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/berilovania/berilovania/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/berilovania/berilovania/output/pacman-contribution-graph.svg" width="100%">
 </picture>
+
+<img src="./assets/divider.svg" width="100%">
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=berilovania&color=6C63FF&style=for-the-badge&label=PROFILE+VIEWS" />
+</div>

@@ -1,0 +1,221 @@
+<svg viewBox="0 0 550 370" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <style>
+    /* ── Cursor blink ── */
+    @keyframes blink { 0%,49%{opacity:1}50%,100%{opacity:0} }
+
+    /* ── Typing cursor (visible 0-5%, hides when typing starts) ── */
+    @keyframes topCur { 0%,4.9%{opacity:1}5%,100%{opacity:0} }
+
+    /* ── Typing reveal clipPath (steps applied on element) ── */
+    @keyframes typeReveal { 0%,5%{width:0}10%,87%{width:100px}92%,100%{width:0} }
+
+    /* ── Init text ── */
+    @keyframes initVis { 0%,11%{opacity:0}12.5%,87%{opacity:1}92%,100%{opacity:0} }
+
+    /* ── Spinner char cycling (0.5s loop) ── */
+    @keyframes spA { 0%{opacity:1}25%,100%{opacity:0} }
+    @keyframes spB { 0%,24.9%{opacity:0}25%{opacity:1}50%,100%{opacity:0} }
+    @keyframes spC { 0%,49.9%{opacity:0}50%{opacity:1}75%,100%{opacity:0} }
+    @keyframes spD { 0%,74.9%{opacity:0}75%{opacity:1}100%{opacity:0} }
+    .sp-a{animation:spA .5s step-end infinite;opacity:0}
+    .sp-b{animation:spB .5s step-end infinite;opacity:0}
+    .sp-c{animation:spC .5s step-end infinite;opacity:0}
+    .sp-d{animation:spD .5s step-end infinite;opacity:0}
+
+    /* ── Dot cycling (0.8s loop) ── */
+    @keyframes dtA { 0%{opacity:1}33.3%,100%{opacity:0} }
+    @keyframes dtB { 0%,33.2%{opacity:0}33.3%{opacity:1}66.6%,100%{opacity:0} }
+    @keyframes dtC { 0%,66.5%{opacity:0}66.6%{opacity:1}100%{opacity:0} }
+    .dt-a{animation:dtA .8s step-end infinite;opacity:0}
+    .dt-b{animation:dtB .8s step-end infinite;opacity:0}
+    .dt-c{animation:dtC .8s step-end infinite;opacity:0}
+
+    /* ── Service SPIN visibility (yellow spinner + dots window) ── */
+    @keyframes sv1s { 0%,14.9%{opacity:0}15%,22.4%{opacity:1}22.5%,100%{opacity:0} }
+    @keyframes sv2s { 0%,22.4%{opacity:0}22.5%,29.9%{opacity:1}30%,100%{opacity:0} }
+    @keyframes sv3s { 0%,29.9%{opacity:0}30%,37.4%{opacity:1}37.5%,100%{opacity:0} }
+    @keyframes sv4s { 0%,37.4%{opacity:0}37.5%,44.9%{opacity:1}45%,100%{opacity:0} }
+    @keyframes sv5s { 0%,44.9%{opacity:0}45%,52.4%{opacity:1}52.5%,100%{opacity:0} }
+
+    /* ── Service DONE visibility (green check + status) ── */
+    @keyframes sv1d { 0%,22.4%{opacity:0}22.5%,87%{opacity:1}92%,100%{opacity:0} }
+    @keyframes sv2d { 0%,29.9%{opacity:0}30%,87%{opacity:1}92%,100%{opacity:0} }
+    @keyframes sv3d { 0%,37.4%{opacity:0}37.5%,87%{opacity:1}92%,100%{opacity:0} }
+    @keyframes sv4d { 0%,44.9%{opacity:0}45%,87%{opacity:1}92%,100%{opacity:0} }
+    @keyframes sv5d { 0%,52.4%{opacity:0}52.5%,87%{opacity:1}92%,100%{opacity:0} }
+
+    /* ── Service NAME visibility (from spin start to fade) ── */
+    @keyframes sv1n { 0%,14.9%{opacity:0}15%,87%{opacity:1}92%,100%{opacity:0} }
+    @keyframes sv2n { 0%,22.4%{opacity:0}22.5%,87%{opacity:1}92%,100%{opacity:0} }
+    @keyframes sv3n { 0%,29.9%{opacity:0}30%,87%{opacity:1}92%,100%{opacity:0} }
+    @keyframes sv4n { 0%,37.4%{opacity:0}37.5%,87%{opacity:1}92%,100%{opacity:0} }
+    @keyframes sv5n { 0%,44.9%{opacity:0}45%,87%{opacity:1}92%,100%{opacity:0} }
+
+    /* ── Progress bar fill (single rect, smooth growth) ── */
+    @keyframes progressFill {
+      0%,15%{width:0}
+      22.5%{width:36px}
+      30%{width:72px}
+      37.5%{width:108px}
+      45%{width:144px}
+      52.5%,87%{width:180px}
+      92%,100%{width:0}
+    }
+
+    /* ── Progress bar bg ── */
+    @keyframes barBg { 0%,14.9%{opacity:0}15%,87%{opacity:1}92%,100%{opacity:0} }
+
+    /* ── Percentage labels ── */
+    @keyframes p20 { 0%,22.4%{opacity:0}22.5%,29.9%{opacity:1}30%,100%{opacity:0} }
+    @keyframes p40 { 0%,29.9%{opacity:0}30%,37.4%{opacity:1}37.5%,100%{opacity:0} }
+    @keyframes p60 { 0%,37.4%{opacity:0}37.5%,44.9%{opacity:1}45%,100%{opacity:0} }
+    @keyframes p80 { 0%,44.9%{opacity:0}45%,52.4%{opacity:1}52.5%,100%{opacity:0} }
+    @keyframes p100 { 0%,52.4%{opacity:0}52.5%,87%{opacity:1}92%,100%{opacity:0} }
+
+    /* ── Final status ── */
+    @keyframes finalVis { 0%,57%{opacity:0}60%,87%{opacity:1}92%,100%{opacity:0} }
+    @keyframes checkPop {
+      0%,57%{opacity:0;transform:scale(0)}
+      60%{opacity:1;transform:scale(1.4)}
+      64%,87%{opacity:1;transform:scale(1)}
+      92%,100%{opacity:0;transform:scale(0)}
+    }
+  </style>
+
+  <defs>
+    <clipPath id="typeClip">
+      <rect x="168" y="50" width="0" height="30" style="animation:typeReveal 20s steps(11) infinite"/>
+    </clipPath>
+  </defs>
+
+  <!-- ═══════════════ TERMINAL CHROME ═══════════════ -->
+  <rect width="550" height="370" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+  <rect width="550" height="36" rx="12" fill="#161B22"/>
+  <rect y="24" width="550" height="12" fill="#161B22"/>
+  <circle cx="20" cy="18" r="6" fill="#FF5F57"/>
+  <circle cx="40" cy="18" r="6" fill="#FEBC2E"/>
+  <circle cx="60" cy="18" r="6" fill="#28C840"/>
+  <text x="275" y="22" fill="#8B949E" font-size="13" text-anchor="middle">matheus@cloud</text>
+
+  <!-- ═══════════════ PROMPT + TYPING ═══════════════ -->
+  <text x="20" y="68" fill="#6C63FF" font-size="14" font-weight="bold">matheus@cloud:~$</text>
+  <text x="168" y="68" fill="#C9D1D9" font-size="14" clip-path="url(#typeClip)">start cloud</text>
+
+  <!-- Top cursor (blinks before typing, hides when typing starts) -->
+  <g style="animation:topCur 20s step-end infinite">
+    <rect x="168" y="56" width="9" height="16" fill="#6C63FF" style="animation:blink .8s step-end infinite"/>
+  </g>
+
+  <!-- ═══════════════ INITIALIZING TEXT ═══════════════ -->
+  <text x="20" y="98" fill="#8B949E" font-size="12" style="animation:initVis 20s step-end infinite;opacity:0">Initializing cloud services...</text>
+
+  <!-- ═══════════════ SERVICE 1: TERRAFORM ═══════════════ -->
+  <!-- Name (visible from spin start) -->
+  <text x="48" y="132" fill="#C9D1D9" font-size="14" style="animation:sv1n 20s step-end infinite;opacity:0">Terraform</text>
+  <!-- Spinner (yellow, during loading) -->
+  <g style="animation:sv1s 20s step-end infinite;opacity:0">
+    <text class="sp-a" x="24" y="132" fill="#FEBC2E" font-size="14" font-weight="bold">|</text>
+    <text class="sp-b" x="24" y="132" fill="#FEBC2E" font-size="14" font-weight="bold">/</text>
+    <text class="sp-c" x="24" y="132" fill="#FEBC2E" font-size="14" font-weight="bold">—</text>
+    <text class="sp-d" x="24" y="132" fill="#FEBC2E" font-size="14" font-weight="bold">\</text>
+    <text class="dt-a" x="175" y="132" fill="#FEBC2E" font-size="14">.</text>
+    <text class="dt-b" x="175" y="132" fill="#FEBC2E" font-size="14">..</text>
+    <text class="dt-c" x="175" y="132" fill="#FEBC2E" font-size="14">...</text>
+  </g>
+  <!-- Done (green) -->
+  <g style="animation:sv1d 20s step-end infinite;opacity:0">
+    <text x="16" y="132" fill="#28C840" font-size="14">[✔]</text>
+    <text x="175" y="132" fill="#484F58" font-size="12">·········</text>
+    <text x="260" y="132" fill="#28C840" font-size="13">provisioned</text>
+  </g>
+
+  <!-- ═══════════════ SERVICE 2: KUBERNETES ═══════════════ -->
+  <text x="48" y="162" fill="#C9D1D9" font-size="14" style="animation:sv2n 20s step-end infinite;opacity:0">Kubernetes</text>
+  <g style="animation:sv2s 20s step-end infinite;opacity:0">
+    <text class="sp-a" x="24" y="162" fill="#FEBC2E" font-size="14" font-weight="bold">|</text>
+    <text class="sp-b" x="24" y="162" fill="#FEBC2E" font-size="14" font-weight="bold">/</text>
+    <text class="sp-c" x="24" y="162" fill="#FEBC2E" font-size="14" font-weight="bold">—</text>
+    <text class="sp-d" x="24" y="162" fill="#FEBC2E" font-size="14" font-weight="bold">\</text>
+    <text class="dt-a" x="175" y="162" fill="#FEBC2E" font-size="14">.</text>
+    <text class="dt-b" x="175" y="162" fill="#FEBC2E" font-size="14">..</text>
+    <text class="dt-c" x="175" y="162" fill="#FEBC2E" font-size="14">...</text>
+  </g>
+  <g style="animation:sv2d 20s step-end infinite;opacity:0">
+    <text x="16" y="162" fill="#28C840" font-size="14">[✔]</text>
+    <text x="175" y="162" fill="#484F58" font-size="12">·········</text>
+    <text x="260" y="162" fill="#28C840" font-size="13">orchestrated</text>
+  </g>
+
+  <!-- ═══════════════ SERVICE 3: DOCKER ═══════════════ -->
+  <text x="48" y="192" fill="#C9D1D9" font-size="14" style="animation:sv3n 20s step-end infinite;opacity:0">Docker</text>
+  <g style="animation:sv3s 20s step-end infinite;opacity:0">
+    <text class="sp-a" x="24" y="192" fill="#FEBC2E" font-size="14" font-weight="bold">|</text>
+    <text class="sp-b" x="24" y="192" fill="#FEBC2E" font-size="14" font-weight="bold">/</text>
+    <text class="sp-c" x="24" y="192" fill="#FEBC2E" font-size="14" font-weight="bold">—</text>
+    <text class="sp-d" x="24" y="192" fill="#FEBC2E" font-size="14" font-weight="bold">\</text>
+    <text class="dt-a" x="175" y="192" fill="#FEBC2E" font-size="14">.</text>
+    <text class="dt-b" x="175" y="192" fill="#FEBC2E" font-size="14">..</text>
+    <text class="dt-c" x="175" y="192" fill="#FEBC2E" font-size="14">...</text>
+  </g>
+  <g style="animation:sv3d 20s step-end infinite;opacity:0">
+    <text x="16" y="192" fill="#28C840" font-size="14">[✔]</text>
+    <text x="175" y="192" fill="#484F58" font-size="12">·········</text>
+    <text x="260" y="192" fill="#28C840" font-size="13">containerized</text>
+  </g>
+
+  <!-- ═══════════════ SERVICE 4: CI/CD PIPELINE ═══════════════ -->
+  <text x="48" y="222" fill="#C9D1D9" font-size="14" style="animation:sv4n 20s step-end infinite;opacity:0">CI/CD Pipeline</text>
+  <g style="animation:sv4s 20s step-end infinite;opacity:0">
+    <text class="sp-a" x="24" y="222" fill="#FEBC2E" font-size="14" font-weight="bold">|</text>
+    <text class="sp-b" x="24" y="222" fill="#FEBC2E" font-size="14" font-weight="bold">/</text>
+    <text class="sp-c" x="24" y="222" fill="#FEBC2E" font-size="14" font-weight="bold">—</text>
+    <text class="sp-d" x="24" y="222" fill="#FEBC2E" font-size="14" font-weight="bold">\</text>
+    <text class="dt-a" x="175" y="222" fill="#FEBC2E" font-size="14">.</text>
+    <text class="dt-b" x="175" y="222" fill="#FEBC2E" font-size="14">..</text>
+    <text class="dt-c" x="175" y="222" fill="#FEBC2E" font-size="14">...</text>
+  </g>
+  <g style="animation:sv4d 20s step-end infinite;opacity:0">
+    <text x="16" y="222" fill="#28C840" font-size="14">[✔]</text>
+    <text x="175" y="222" fill="#484F58" font-size="12">·········</text>
+    <text x="260" y="222" fill="#28C840" font-size="13">deployed</text>
+  </g>
+
+  <!-- ═══════════════ SERVICE 5: MONITORING ═══════════════ -->
+  <text x="48" y="252" fill="#C9D1D9" font-size="14" style="animation:sv5n 20s step-end infinite;opacity:0">Monitoring</text>
+  <g style="animation:sv5s 20s step-end infinite;opacity:0">
+    <text class="sp-a" x="24" y="252" fill="#FEBC2E" font-size="14" font-weight="bold">|</text>
+    <text class="sp-b" x="24" y="252" fill="#FEBC2E" font-size="14" font-weight="bold">/</text>
+    <text class="sp-c" x="24" y="252" fill="#FEBC2E" font-size="14" font-weight="bold">—</text>
+    <text class="sp-d" x="24" y="252" fill="#FEBC2E" font-size="14" font-weight="bold">\</text>
+    <text class="dt-a" x="175" y="252" fill="#FEBC2E" font-size="14">.</text>
+    <text class="dt-b" x="175" y="252" fill="#FEBC2E" font-size="14">..</text>
+    <text class="dt-c" x="175" y="252" fill="#FEBC2E" font-size="14">...</text>
+  </g>
+  <g style="animation:sv5d 20s step-end infinite;opacity:0">
+    <text x="16" y="252" fill="#28C840" font-size="14">[✔]</text>
+    <text x="175" y="252" fill="#484F58" font-size="12">·········</text>
+    <text x="260" y="252" fill="#28C840" font-size="13">connected</text>
+  </g>
+
+  <!-- ═══════════════ PROGRESS BAR ═══════════════ -->
+  <!-- Background -->
+  <rect x="20" y="278" width="180" height="14" rx="4" fill="#21262D" style="animation:barBg 20s step-end infinite;opacity:0"/>
+  <!-- Fill (single rect, smooth growth) -->
+  <rect x="20" y="278" width="0" height="14" rx="4" fill="#6C63FF" style="animation:progressFill 20s linear infinite"/>
+  <!-- Percentage labels -->
+  <text x="210" y="290" fill="#8B949E" font-size="13" style="animation:p20 20s step-end infinite;opacity:0">20%</text>
+  <text x="210" y="290" fill="#8B949E" font-size="13" style="animation:p40 20s step-end infinite;opacity:0">40%</text>
+  <text x="210" y="290" fill="#8B949E" font-size="13" style="animation:p60 20s step-end infinite;opacity:0">60%</text>
+  <text x="210" y="290" fill="#8B949E" font-size="13" style="animation:p80 20s step-end infinite;opacity:0">80%</text>
+  <text x="210" y="290" fill="#6C63FF" font-size="13" font-weight="bold" style="animation:p100 20s step-end infinite;opacity:0">100%</text>
+
+  <!-- ═══════════════ FINAL STATUS ═══════════════ -->
+  <text x="20" y="328" fill="#28C840" font-size="14" font-weight="bold" style="animation:finalVis 20s step-end infinite;opacity:0">All systems operational</text>
+  <text x="240" y="328" fill="#28C840" font-size="16" style="animation:checkPop 20s ease infinite;opacity:0;transform-origin:240px 322px">✔</text>
+
+  <!-- ═══════════════ BOTTOM PROMPT ═══════════════ -->
+  <text x="20" y="356" fill="#6C63FF" font-size="14" font-weight="bold" style="animation:finalVis 20s step-end infinite;opacity:0">matheus@cloud:~$</text>
+  <g style="animation:finalVis 20s step-end infinite;opacity:0">
+    <rect x="172" y="344" width="9" height="16" fill="#6C63FF" style="animation:blink .8s step-end infinite"/>
+  </g>
+</svg>
