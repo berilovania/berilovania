@@ -27,7 +27,7 @@ I'm a **DevOps Engineer** from Brazil passionate about building reliable, scalab
 - Open to **DevOps / Cloud / SRE** roles
 
 </td>
-<td valign="top" width="50%">
+<td valign="middle" width="50%">
 
 <img src="./assets/terminal.svg" width="100%" alt="terminal animation" />
 
@@ -37,32 +37,55 @@ I'm a **DevOps Engineer** from Brazil passionate about building reliable, scalab
 
 <img src="./assets/divider.svg" width="100%">
 
+### <div align="center">🚀 Tech Stack</div>
+
 <table>
 <tr>
 <td valign="top" width="50%">
 
-### 🚀 Tech Stack
+<div align="center">
+
+<table align="center" style="margin: 0 auto; border-collapse: collapse;">
+<tr>
+<td align="center" style="padding: 20px;">
 
 **Cloud & Orchestration**
-<p>
-  <img src="https://skillicons.dev/icons?i=aws,gcp,terraform,kubernetes,docker" />
-</p>
+
+<img src="https://skillicons.dev/icons?i=aws,gcp,terraform,kubernetes,docker" />
+
+</td>
+</tr>
+<tr>
+<td align="center" style="padding: 20px;">
 
 **Monitoring & Observability**
-<p>
-  <img src="https://cdn.simpleicons.org/prometheus/E6522C" height="40" alt="prometheus" />
-  <img src="https://cdn.simpleicons.org/grafana/F27173" height="40" alt="grafana" />
-</p>
+
+<img src="https://cdn.simpleicons.org/prometheus/E6522C" height="40" alt="prometheus" />
+<img src="https://cdn.simpleicons.org/grafana/F27173" height="40" alt="grafana" />
+
+</td>
+</tr>
+<tr>
+<td align="center" style="padding: 20px;">
 
 **Development & Scripting**
-<p>
-  <img src="https://skillicons.dev/icons?i=py,bash,js,html,css" />
-</p>
+
+<img src="https://skillicons.dev/icons?i=py,bash,js,html,css" />
+
+</td>
+</tr>
+<tr>
+<td align="center" style="padding: 20px;">
 
 **Tools & Version Control**
-<p>
-  <img src="https://skillicons.dev/icons?i=linux,git,github,githubactions,vscode" />
-</p>
+
+<img src="https://skillicons.dev/icons?i=linux,git,github,githubactions,vscode" />
+
+</td>
+</tr>
+</table>
+
+</div>
 
 </td>
 <td valign="middle" width="50%">
@@ -76,13 +99,6 @@ I'm a **DevOps Engineer** from Brazil passionate about building reliable, scalab
 <img src="./assets/divider.svg" width="100%">
 
 ### <div align="center">📈 GitHub Analytics</div>
-
-<div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=berilovania&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=berilovania&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9" />
-</div>
-
-<br>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=berilovania&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" />
