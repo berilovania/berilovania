@@ -51,7 +51,6 @@ I'm a **DevOps Engineer** from Brazil passionate about building reliable, scalab
 **Monitoring & Observability**
 <p>
   <img src="https://cdn.simpleicons.org/prometheus/E6522C" height="40" alt="prometheus" />
-  <img width="12" />
   <img src="https://cdn.simpleicons.org/grafana/F27173" height="40" alt="grafana" />
 </p>
 
@@ -79,8 +78,8 @@ I'm a **DevOps Engineer** from Brazil passionate about building reliable, scalab
 ### <div align="center">📈 GitHub Analytics</div>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=berilovania&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=berilovania&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=berilovania&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=berilovania&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9" />
 </div>
 
 <br>
