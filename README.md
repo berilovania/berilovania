@@ -16,7 +16,7 @@
 <tr>
 <td valign="top" width="50%">
 
-### 🧑‍💻 About Me
+## 🧑‍💻 About Me
 
 I'm a **DevOps Engineer** from Brazil passionate about building reliable, scalable infrastructure and automating everything that can be automated.
 
@@ -40,7 +40,7 @@ I'm a **DevOps Engineer** from Brazil passionate about building reliable, scalab
 
 <img src="./assets/divider.svg" width="100%">
 
-### <div align="center">🚀 Tech Stack</div>
+## <div align="center">🚀 Tech Stack</div>
 
 <table>
 <tr>
@@ -87,7 +87,7 @@ I'm a **DevOps Engineer** from Brazil passionate about building reliable, scalab
 
 <img src="./assets/divider.svg" width="100%">
 
-### <div align="center">📈 GitHub Analytics</div>
+## <div align="center">📈 GitHub Analytics</div>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=berilovania&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" />
@@ -95,7 +95,7 @@ I'm a **DevOps Engineer** from Brazil passionate about building reliable, scalab
 
 <img src="./assets/divider.svg" width="100%">
 
-### <div align="center">🐍 Contribution Graph</div>
+## <div align="center">🐍 Contribution Graph</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/berilovania/berilovania/output/pacman-contribution-graph-dark.svg">
