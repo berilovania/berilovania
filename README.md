@@ -25,6 +25,9 @@ I'm a **DevOps Engineer** from Brazil passionate about building reliable, scalab
 - **Automation** — Python, Bash & CI/CD
 - **Linux Systems** — Admin & Troubleshooting
 - Open to **DevOps / Cloud / SRE** roles
+<br />
+
+> 🌐 **Portfolio:** **[matheuscaldas.com](https://matheuscaldas.com/)**
 
 </td>
 <td valign="middle" width="50%">
@@ -45,45 +48,31 @@ I'm a **DevOps Engineer** from Brazil passionate about building reliable, scalab
 
 <div align="center">
 
-<table align="center" style="margin: 0 auto; border-collapse: collapse;">
-<tr>
-<td align="center" style="padding: 20px;">
-
 **Cloud & Orchestration**
 
 <img src="https://skillicons.dev/icons?i=aws,gcp,terraform,kubernetes,docker" />
 
-</td>
-</tr>
-<tr>
-<td align="center" style="padding: 20px;">
+<br />
+<br />
 
 **Monitoring & Observability**
 
 <img src="https://cdn.simpleicons.org/prometheus/E6522C" height="40" alt="prometheus" />
 <img src="https://cdn.simpleicons.org/grafana/F27173" height="40" alt="grafana" />
 
-</td>
-</tr>
-<tr>
-<td align="center" style="padding: 20px;">
+<br />
+<br />
 
 **Development & Scripting**
 
 <img src="https://skillicons.dev/icons?i=py,bash,js,html,css" />
 
-</td>
-</tr>
-<tr>
-<td align="center" style="padding: 20px;">
+<br />
+<br />
 
 **Tools & Version Control**
 
 <img src="https://skillicons.dev/icons?i=linux,git,github,githubactions,vscode" />
-
-</td>
-</tr>
-</table>
 
 </div>
 
